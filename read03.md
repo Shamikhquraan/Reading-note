@@ -12,4 +12,4 @@
    like **Semantics** in HTML
 In HTML, for example, the <h1> element is a semantic element, which gives the text it wraps around the role (or meaning) of "a top level heading on your page."
 
-- **Key** resources  , and alot of syntax had written in how to make tables by <ul> , <li> .. and link words to website link.
+- **Key** resources  , and alot of syntax had written in how to make tables by < ul> , < li> .. and link words to website link.
