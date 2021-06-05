@@ -53,7 +53,8 @@ JavaScript includes special operator called ternary operator :? that assigns a v
 ### * we use functios with httml to make the page live as we see in this example we create a button and we named it "click" and we called the function as we click the button the function will return to us the value who will show at the screen : 
 ![](js4.png) 
  
- ### and here we go : 
+ ## and here we go : 
+
  ![](js5.png)
 
 - ## as we see there are alot of information and uses about function or operators so this was my summary about operatoprs and functios .
