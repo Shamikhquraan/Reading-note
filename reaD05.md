@@ -91,7 +91,7 @@ CSS treats each HTML element as if it appears in a box, and the background-color
 
 + Hue
 hue is often represented as a color circle where the angle represents the color.
-![(https://lh3.googleusercontent.com/proxy/npMg3Dssbn1AVyMZFdTTZSV7lOKIOApQ8WRfC2e2dTF9KQxw8IkmY3BSu_zLEVrm3Y1y6oTXP31J5mE-_9T0lpeIMWfov71qSdxcdTFeZQ) ]
+![](https://miro.medium.com/max/2800/0*ss-Tj3T4oMIi4EBW.png)
 + Saturation
 is the amount of gray in a color. Saturation is represented as a percentage. 100% is full saturation and 0% is a shade of gray.
 
