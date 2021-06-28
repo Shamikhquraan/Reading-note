@@ -1,44 +1,59 @@
-## Layout :
+### HTML tables
 
-![](https://miro.medium.com/max/840/1*kuzeYL058uQGHPt8_wuoqg.png)
+![](https://i.stack.imgur.com/VCxSJ.png )
 
-**CSS** treats each HTML element as if it is in its own box. This box will either be a block-level box or an inline box.
++ what is Table ?
 
-### Containing Elements
-**If** one block-level element sits inside another block-level element then the outer box is known as the containing or parent element
+A table represents information in a grid format. Examples of tables include financial reports, TV schedules, and sports results.
 
-### Floating Elements
-+ **float:**
++ The < table> tag defines an HTML table.
 
-The float property allows you to take an element in normal flow and place it as far to the left or right of the containing element as possible. The **blockquote** element is floated to the right, and the paragraphs that follow the quote flow around the floated element.
-he float property is used for positioning and formatting content e.g. let an image float left to the text in a container.
++ Each table row is defined with a < tr> tag. 
 
-### The float property can have one of the following values:
-![](https://static.javatpoint.com/csspages/images/css-float-web.png)
-![](https://www.1keydata.com/css-tutorial/example-float-right-float-left.jpg)
-+ left - The element floats to the left of its container
-+ right - The element floats to the right of its container
-+ none - The element does not float (will be displayed just where it +  occurs in the text). This is default
-+ inherit - The element inherits the float value of its parent In its simplest use, the float property can be used to wrap text around images.
-### clear:
-* left * Right * both * none
++ Each table header is defined with a < th> tag,  By default, the text in < th> elements are bold and centered.
 
-### Screen Sizes:
++ Each table data/cell is defined with a < td> tag.
+By default, the text in < td> elements are regular and left-aligned.
 
-Different visitors to your site will have different sized screens that show different amounts of information, so your design needs to be able to work on a range of different sized screens.
+### Table Headings th
+The th element is used just like the td element but its purpose is to represent the heading for either a column or a row
 
-### Screen Resolution:
+### Long Tables
+There are three elements that help distinguish between the main content of
 
-Resolution refers to the number of dots a screen shows per inch. Some devices have a higher resolution than desktop computers and most operating systems allow users to adjust the resolution of their screens.
++ thead:
 
-### Page Sizes
-Because screen sizes and display resolutions vary so much, web designers often try to create pages of around 960-1000 pixels wide (since most users will be able to see designs this wide on their screens)
+The headings of the table should sit inside the thead element.
 
-### Fixed and Liquid width Layout:
-![](https://elementor.com/cdn-cgi/image/f=auto,w=1024,h=606/marketing/wp-content/uploads/sites/9/2020/09/modular-grid-examples-1.png)
-A "fixed-width" layout is one in which the layout of the page is contained within a wrapper that doesn't adjust its size when the width of the browser changes. To create a fixed width layout, the width of the main boxes on a page will usually be specified in pixels (and sometimes their height, too).
++ tbody
 
-Liquid layouts define layout regions that both resize with text, and reflow as needed to accommodate on-screen display. The liquid layout uses percentages to specify the width of each box so that the design will stretch to fit the size of the screen.
+The body should sit inside the tbody element.
 
-### Layout Grids:
-Composition in any visual art (such as design, painting, or photography) is the placement or arrangement of visual elements — how they are organized on a page. Many designers use a grid structure to help them position items on a page, and the same is true for web designers.
++ tfoot
+
+The footer belongs inside the tfoot element.
+
+## CRATING AN OBJECT : CONSTRUCTOR NATION :
+
+![](https://cdn.educba.com/academy/wp-content/uploads/2019/09/Constructor-in-JavaScript.png)
+
+
+### This keyword ! The keyword this is commonly used inside functions and objects. Where the function is declared alters what this means. It always refers to one object, usually the object in which the function operates.
+
+**A FUNCTION IN GLOBAL SCOPE :** When a function is created at the top level of a script (that is, not inside another object or function), then it is in the global scope or global context.
+
+**GLOBAL VARIABLES All global variables**  also become properties of the window object. so when a function is in the global context, you can access global variables using the window object, as well as its other properties.
++ In JavaScript, data is represented using name/value pairs.
+
++ To organize your data, you can use an array or object to group a set of related values. In arrays and objects the name is also known as a key.
+
+**VARIABLES :** A variable has just one key (the variable name) and one value.
+
+**ARRAYS Arrays :** can store multiple pieces of information. Each piece of information is separated by a comma. The order of the values is important because items in an array are assigned a number (called an index). Values in an array are put in square brackets, separated by commas.
+
+### WHAT ARE BUILT-IN OBJECTS?
+Browsers come with a set of built-in objects that represent things like the browser window and the current web page shown in that window. These built-in objects act like a toolkit for creating interactive web pages. The objects you create will usually be specifically written to suit your needs. They model the data used within, or contain functionality needed by, your script. Whereas, the built-in objects contain functionality.
+
+### GLOBAL OBJECTS:
++ MATH OBJECT
++ NUMBER OBJECT
