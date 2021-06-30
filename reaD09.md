@@ -3,21 +3,21 @@
 
 ### summary of tables :
 
-+ The <table> element is used to add tables to a web
++ The < table> element is used to add tables to a web
 page.
 
 + A table is drawn out row by row. Each row is created
-with the <tr> element.
+with the < tr> element.
 
 + Inside each row there are a number of cells
-represented by the <td> element (or <th> if it is a
+represented by the < td> element (or < th> if it is a
 header).
 
 + You can make cells of a table span more than one row
 or column using the rowspan and colspan attributes.
 
-+ For long tables you can split the table into a <thead>,
-<tbody>, and <tfoot>.
++ For long tables you can split the table into a < thead>,
+< tbody>, and < tfoot>.
 
 ## FORMS:
 
@@ -247,12 +247,12 @@ HTML5 provides a special type of input for that purpose.
 type="search" If you want to create a singleline text box for search
 queries,HTML5 provides a special search input.
 
-![](https://mlvh6ni7aque.i.optimole.com/wRx3UN4-cihKZiDK/w:387/h:211/q:90/rt:fill/g:ce/https://i0.wp.com/utssah.com/wp-content/uploads/2020/06/Top-5-Programming-languages-in-2020.png)
+![](https://mlvh6ni7aque.i.optimole.com/wRx3UN4-cihKZiDK/w:387/h:211/q:90/rt:fill/g:ce/https://i0.wp.com/utssah.com/wp-content/uploads/2020/06/Top-5-Programming-languages-in-2020.png )
 
 ### Summary:
 
 +  Whenever you want to collect information from visitors you will need a form, which lives inside a
-     -form- element.
+      form - element.
 +  Information from a form is sent in name/value pairs.
 +  Each form control is given a name, and the text the user types in or the values of the options they
   select are sent to the server.
@@ -384,4 +384,4 @@ onsubmit is an event that occurs when you try to submit a form. You can put your
  ### onmouseover and onmouseout
 These two event types will help you create nice effects with images or even with text as well. The onmouseover 
 event triggers when you bring your mouse over any element and the onmouseout triggers when you move your mouse 
-out from that element. Try the following example.
+out from that element.
