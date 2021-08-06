@@ -1,9 +1,11 @@
-## Introduction
+## Introduction:
 
 - ##  im Shamikh Power Engineer, programmer, Designer ,unshakable optimist dedicated to be the best version of me ,Collaborative at my zone and for sure Helpful.
-- ## what im here ! to move my self for a high level and be a good full stack develobar.
+### why im here ! to move my self for a high level and be a good full stack develobar.
 
-## Code 102 - Intro to Software Development :
+
+
+- ## Code 102 - Intro to Software Development :
 
  Name    |  The link
  --------|  -------- 
@@ -17,7 +19,7 @@
  read08  | [link](read08)
  
 
-## Code 201 - Foundations of Software Development:
+- ## Code 201 - Foundations of Software Development:
 
 Name    | The link
 --------| -----------
@@ -37,7 +39,7 @@ read13  | [link](reaD13)
 read14  | [link](read14a)
 read15  | [link](read14b)
 
-## Code 301 - Intermediate Software Development:
+- ## Code 301 - Intermediate Software Development:
 
 Name    | The link
 --------| -----------
