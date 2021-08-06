@@ -1,7 +1,8 @@
-## Introduction:
+# Reading Notes
 
-- ##  im Shamikh Power Engineer, programmer, Designer ,unshakable optimist dedicated to be the best version of me ,Collaborative at my zone and for sure Helpful.
-### why im here ! to move my self for a high level and be a good full stack develobar.
+- ##  im Shamikh Power Engineer, programmer, Designer , unshakable optimist dedicated to be the best version of me ,Collaborative at my zone and for sure Helpful and for now working on my self to be full stack developer soon. 
+### This page summarizes the main steps that i went through.So have fun.
+
 
 
 
