@@ -110,3 +110,10 @@ But the important part here is that data with props are being passed in a uni-di
 ### What is the flow of props?
 
  ### That data with props are being passed in a uni-directional flow. (one way from parent to child)
+
+
+
+
+ ## Things I want to know more about:
+
+ 
