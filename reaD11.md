@@ -273,7 +273,7 @@ your web pages.
 ### How Many People Are Coming to Your Site?
 The overview page gives you a snapshot of the key information you are
 likely to want to know. In particular, it tells you how many people are
-coming to your site.
+coming to your site...
 
 
 ### What Are Your Visitors Looking At?
