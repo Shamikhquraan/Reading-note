@@ -2,6 +2,12 @@
 
 
 
+
+![](https://miro.medium.com/max/638/1*CCHexfHNCNo-f8aw3rbRew.jpeg)
+
+
+
+
 ## What is a ‘call’?
 
 - **The call stack** works based on last in first out When the current function completes, the JavaScript engine pops it off the call stack and resumes the execution where it left off in the last code listing. The script will stop when the call stack is empty.
