@@ -84,7 +84,7 @@ An array is a container object that holds a fixed number of values of a single t
 
 
 
-## compoling :
+## compiling :
 
 - What is the purpose of compiling Java?
 The compiler translates your source code instructions into Java bytecode instructions. In other words, the compiler takes code that you can write and understand and translates it into code that a computer can execute . 
