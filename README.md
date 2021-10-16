@@ -8,75 +8,75 @@
 
 - ## Code 102 - Intro to Software Development :
 
- Name    |  The link
- --------|  -------- 
- read01  | [link](REad01) 
- read011 | [link](read011)
- read02  | [link](read02)
- read03  | [link](read03)
- read04  | [link](read04)
- read06  | [link](read06)
- read07  | [link](read07)
- read08  | [link](read08)
+ Name                                |  The link
+ ------------------------------------| ------------- 
+  Learning Markdown                  | [link](REad01) 
+  Revisions and the Cloud            | [link](read011)
+  Structure web pages with HTML      | [link](read02)
+  Design web pages with CSS          | [link](read03)
+  Dynamic web pages with JavaScript  | [link](read04)
+  Operators and Loops                | [link](read06)
+  read07                             | [link](read07)
+  read08                             | [link](read08)
  
 
 - ## Code 201 - Foundations of Software Development:
 
-Name    | The link
---------| -----------
-read01  | [link](reaD201)
-read02  | [link](reaD02)
-read03  | [link](reaD03)
-read04  | [link](reaD04)
-read05  | [link](reaD05)
-read06  | [link](reaD06)
-read07  | [link](reaD07)
-read08  | [link](reaD08)
-read09  | [link](reaD09)
-read10  | [link](reaD10)
-read11  | [link](reaD11)
-read12  | [link](reaD12)
-read13  | [link](reaD13)
-read14  | [link](read14a)
-read15  | [link](read14b)
+Name                                                             | The link
+-----------------------------------------------------------------| -----------
+ Introductory HTML and JavaScript                                | [link](reaD201)
+ HTML Text, CSS Introduction, and Basic JavaScript Instructions  | [link](reaD02)
+ HTML Lists, CSS Boxes, JS Control Flow                          | [link](reaD03)
+ HTML Links, CSS Layout, JS Functions                            | [link](reaD04)
+ HTML Images; CSS Color & Text	                                 | [link](reaD05)
+ JS Object Literals; The DOM	                                 | [link](reaD06)
+ HTML Tables; JS Constructor Functions                           | [link](reaD07)
+ More CSS Layout                                                 | [link](reaD08)
+ Forms and Events                                                | [link](reaD09)
+ JS Debugging                                                    | [link](reaD10)
+ Assorted Topics                                                 | [link](reaD11)
+ Docs for the HTML <canvas> Element & Chart.js                   | [link](reaD12)
+ Local Storage                                                   | [link](reaD13)
+ CSS Transforms, Transitions, and Animations                     | [link](read14a)
+ What Google Learned About Teams                                 | [link](read14b)
 
 - ## Code 301 - Intermediate Software Development:
 
 Name    | The link
 --------| -----------
-read01  | [link](Read01)
-read02  | [link](Read02)
-read03  | [link](Read03)
-read04  | [link](Read04)
-read05  | [link](Read05)
-read06  | [link](Read06)
-read07  | [link](Read07)
-read08  | [link](Read08)
-read09  | [link](Read09)
-read10  | [link](Read10)
-read11  | [link](Read11)
-read12  | [link](Read12)
-read13  | [link](Read13)
-read14  | [link](Read14)
-read15  | [link](Read15)
+Class 01  | [link](Read01)
+Class 02  | [link](Read02)
+Class 03  | [link](Read03)
+Class 04  | [link](Read04)
+Class 05  | [link](Read05)
+Class 06  | [link](Read06)
+Class 07  | [link](Read07)
+Class 08  | [link](Read08)
+Class 09  | [link](Read09)
+Class 10  | [link](Read10)
+Class 11  | [link](Read11)
+Class 12  | [link](Read12)
+Class 13  | [link](Read13)
+Class 14  | [link](Read14)
+Class 15  | [link](Read15)
 
 
 - ## Code 401 - Advanced Software Development
 
-Name    | The link
---------| -----------
-read01  | [link](readd01)
-read02  | [link](readd02)
-read03  | [link](readd03)
-read04  | [link](readd04)
-read05  | [link](readd05)
-read06  | [link](readd06)
-read07  | [link](readd07)
-read08  | [link](readd08)
-read09  | [link](readd09)
-read10  | [link](readd10)
-read11  | [link](readd11)
-read12  | [link](readd12)
-read13  | [link](readd13)
-read14  | [link](readd14)
-read15  | [link](readd15)
+Name                                        | The link
+--------------------------------------------| -----------
+Java Basics                                 | [link](readd01)
+Arrays, Loops, Imports                      | [link](readd02)
+Maps, primitives, File I/O                  | [link](readd03)
+OOP                                         | [link](readd04)
+Linked Lists                                | [link](readd05)
+Inheritance and Interfaces	                | [link](readd06)
+Inheritance day 2                           | [link](readd07)
+OO Design                                   | [link](readd08)
+WRRC and Java                               | [link](readd09)
+Stacks & Queues                             | [link](readd10)
+Spring                                      | [link](readd11)
+Spring RESTful Routing & Static Files       | [link](readd12)
+Related Resources and Integration Testing   | [link](readd13)
+Trees                                       | [link](readd14)
+Spring Authentication                       | [link](readd15)
