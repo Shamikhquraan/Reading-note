@@ -74,3 +74,5 @@ WebApplicationContext provides a web application configuration. It loads all the
 - Looking further, we covered how we can send GET and POST requests with variations of parameter passing and how to verify the HTTP response status, header, and content.
 
 - As a closing remark, we did also evaluate some limitations of MockMvc. Knowing those limitations can guide us to make an informed decision about how we're going to implement our tests.
+
+
