@@ -1,7 +1,7 @@
 
 ## Search in a Binary Search Tree
 
-public TreeNode searchBST(TreeNode root, int val) {
+* public TreeNode searchBST(TreeNode root, int val) {
 if(root==null)return null;
         if(root.val==val)return root;
         if(root.val>val){
@@ -11,8 +11,10 @@ if(root==null)return null;
         }
 }
 
- ## Leaf-Similar Trees
-public boolean leafSimilar(TreeNode root1, TreeNode root2) {
+
+ ## Leaf-Similar Trees:
+
+* public boolean leafSimilar(TreeNode root1, TreeNode root2) {
 List<Integer> l1=new ArrayList<>();
 List<Integer> l2=new ArrayList<>();
         helper(l1,root1);
@@ -31,8 +33,8 @@ List<Integer> l2=new ArrayList<>();
 
 
 ## Invert Binary Tree
-12:38
-public TreeNode temp;
+
+* public TreeNode temp;
     public TreeNode invertTree(TreeNode root) {
 if (root==null)return null;
         temp=root.left;
@@ -45,7 +47,8 @@ if (root==null)return null;
 
 
 ## Binary Tree Paths
-public List<String> binaryTreePaths(TreeNode root) {
+
+* public List<String> binaryTreePaths(TreeNode root) {
         List<String> result = new ArrayList<>();
         if(root == null)
             return result;
@@ -68,7 +71,8 @@ public List<String> binaryTreePaths(TreeNode root) {
 
 
 ## Sum of Left Leaves
-public int sumOfLeftLeaves(TreeNode root) {
+
+* public int sumOfLeftLeaves(TreeNode root) {
    if (root==null){
        return 0;
    }
@@ -86,7 +90,7 @@ public int sumOfLeftLeaves(TreeNode root) {
 
  ## Same Tree
 
-public boolean isSameTree(TreeNode p, TreeNode q) {
+* public boolean isSameTree(TreeNode p, TreeNode q) {
 if(p==null &&q==null)return true;
         if(p==null||q==null)return q==p;
         if(p.val!=q.val){return false;}else{
@@ -96,11 +100,11 @@ if(p==null &&q==null)return true;
 
 ## Symmetric Tree
 
-public boolean isSymmetric(TreeNode root) {
+* public boolean isSymmetric(TreeNode root) {
         if(root==null)return true;
         return helper(root.left,root.right);
     }
-public boolean helper(TreeNode left,TreeNode right){
+* public boolean helper(TreeNode left,TreeNode right){
     if(left==null && right==null){
         return true;
     }
@@ -115,7 +119,7 @@ public boolean helper(TreeNode left,TreeNode right){
 
 ## Maximum Depth of Binary Tree
 
-public int maxDepth(TreeNode root) {
+* public int maxDepth(TreeNode root) {
 if(root==null)return 0;
         int left=maxDepth(root.left);
         int right=maxDepth(root.right);
@@ -124,7 +128,7 @@ if(root==null)return 0;
 
 ##  Minimum Depth of Binary Tree
 
-public int minDepth(TreeNode root) {
+* public int minDepth(TreeNode root) {
       if(root==null)return 0;
         int left=minDepth(root.left);
         int right=minDepth(root.right);
@@ -132,7 +136,7 @@ public int minDepth(TreeNode root) {
     }
 
 ## Path Sum
-public boolean hasPathSum(TreeNode root, int targetSum) {
+* public boolean hasPathSum(TreeNode root, int targetSum) {
         if (root== null)return false;
         targetSum-=root.val;
         if (root.left==null && root.right==null){
@@ -142,7 +146,7 @@ public boolean hasPathSum(TreeNode root, int targetSum) {
     }
 
 ## Sum Root to Leaf Numbers
-public int result;
+* public int result;
     public int sumNumbers(TreeNode root) {
      if (root==null){
          return 0;
@@ -167,7 +171,8 @@ public int result;
 
 
 ##  Find Largest Value in Each Tree Row
-public List<Integer> largestValues(TreeNode root) {
+
+* public List<Integer> largestValues(TreeNode root) {
         List<Integer> list = new ArrayList<Integer>();
         Queue<TreeNode> q = new LinkedList<TreeNode>();
         if (root == null) return list;
@@ -185,10 +190,10 @@ public List<Integer> largestValues(TreeNode root) {
         }
         return list;
     }
-12:48
 
 ## Second Minimum Node In a Binary Tree
-public int findSecondMinimumValue(TreeNode root) {
+
+* public int findSecondMinimumValue(TreeNode root) {
         if(root==null)return -1;
         if(root.left==null&& root.right==null){
             return -1;
@@ -209,4 +214,4 @@ public int findSecondMinimumValue(TreeNode root) {
         }else{
             return right;
         }
-    }
+}
