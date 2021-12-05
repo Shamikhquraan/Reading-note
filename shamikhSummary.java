@@ -1,3 +1,4 @@
+
 // Search in a Binary Search Tree
 public TreeNode searchBST(TreeNode root, int val) {
 if(root==null)return
@@ -10,8 +11,9 @@ return searchBST(root.right,val);
 }
 }
 
-// Leaf-Similar Trees:
 
+
+// Leaf-Similar Trees:
   public boolean leafSimilar(TreeNode root1, TreeNode root2) {
   List<Integer> l1=new ArrayList<>();
   List<Integer> l2=new ArrayList<>();
@@ -29,6 +31,8 @@ return searchBST(root.right,val);
   return l;
   }
 
+
+
 // Invert Binary Tree
 - public TreeNode temp;
   public TreeNode invertTree(TreeNode root) {
@@ -41,14 +45,17 @@ return searchBST(root.right,val);
   return root;
   }
 
+
+
+
 // Binary Tree Paths
-- public List<String> binaryTreePaths(TreeNode root) {
+ public List<String> binaryTreePaths(TreeNode root) {
   List<String> result = new ArrayList<>();
   if(root == null)
   return result;
   String path = "";
-  Function(path,result,root);
-  return result;
+    Function(path,result,root);
+   return result;
   }
   public void Function(String path, List<String> result, TreeNode root)
   {
@@ -62,6 +69,10 @@ return searchBST(root.right,val);
   Function(path+root.val+"->",result,root.right);
   }
   }
+
+
+
+
 
 // Sum of Left Leaves
   public int sumOfLeftLeaves(TreeNode root) {
@@ -78,6 +89,11 @@ return searchBST(root.right,val);
   }
   }
 
+
+
+
+
+
 // Same Tree
   public boolean isSameTree(TreeNode p, TreeNode q) {
   if(p==null &&q==null)return true;
@@ -86,6 +102,10 @@ return searchBST(root.right,val);
   return isSameTree(p.left,q.left)&&isSameTree(p.right,q.right);
   }
   }
+
+
+
+
 
 // Symmetric Tree
   public boolean isSymmetric(TreeNode root) {
@@ -104,6 +124,10 @@ return searchBST(root.right,val);
   }
   }
 
+
+
+
+
 // Maximum Depth of Binary Tree
   public int maxDepth(TreeNode root) {
   if(root==null)return 0;
@@ -112,6 +136,8 @@ return searchBST(root.right,val);
   return Math.max(left,right)+1;
   }
 
+
+
 // Minimum Depth of Binary Tree
  public int minDepth(TreeNode root) {
   if(root==null)return 0;
@@ -119,6 +145,9 @@ return searchBST(root.right,val);
   int right=minDepth(root.right);
   return (left==0 || right==0)? right+left+1 :Math.min(left,right)+1;
   }
+
+
+
 
 // Path Sum
   public boolean hasPathSum(TreeNode root, int targetSum) {
@@ -129,6 +158,8 @@ return searchBST(root.right,val);
   }
   return hasPathSum(root.left,targetSum) || hasPathSum(root.right,targetSum) ;
   }
+
+
 
 
 // Sum Root to Leaf Numbers
@@ -156,6 +187,9 @@ return searchBST(root.right,val);
   }
 
 
+
+
+
 // Find Largest Value in Each Tree Row
   public List<Integer> largestValues(TreeNode root) {
   List<Integer> list = new ArrayList<Integer>();
@@ -177,7 +211,9 @@ return searchBST(root.right,val);
   }
 
 
-//Second Minimum Node In a Binary Tree
+
+
+//Second Minimum Node In a Binary Tree..
   public int findSecondMinimumValue(TreeNode root) {
   if(root==null)return -1;
   if(root.left==null&& root.right==null){
