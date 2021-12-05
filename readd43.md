@@ -9,7 +9,8 @@ if(root==null)return null;
         }else{
            return    searchBST(root.right,val);
         }
-}
+};
+
 
 
  ## Leaf-Similar Trees:
