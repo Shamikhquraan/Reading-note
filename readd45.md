@@ -34,5 +34,5 @@
 
 
 ### here u will find list of biggner-friendly projects to help u start :
-![LINK](https://github.com/search?q=label%3Agood-first-issue+archived%3Afalse)
+[LINK](https://github.com/search?q=label%3Agood-first-issue+archived%3Afalse)
 
