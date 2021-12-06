@@ -203,7 +203,7 @@ public int result;
 
 
 
-// Find Largest Value in Each Tree Row
+// Find Largest Value breadthFirst 
 public List<Integer> largestValues(TreeNode root) {
         List<Integer> list = new ArrayList<Integer>();
         Queue<TreeNode> q = new LinkedList<TreeNode>();
@@ -386,4 +386,34 @@ public int findSecondMinimumValue(TreeNode root) {
     }
     public boolean contain(int value) {
         return containsNode(root, value);
+    }
+
+
+
+
+
+
+     // find sec minimum in BinaryTree 
+    static int min1;
+    static int min2;
+    public static int findSecond(BinaryTree tree){
+      min1 = (int) tree.getRoot().getValue();
+      min2 = (int) tree.getRoot().getValue();
+        dfs(tree.getRoot());
+        return min2;
+    }
+    public static void dfs(Node root) {
+        if (root != null) {
+            if (min1 > (int) root.getValue()) {
+                min1 = (int) root.getValue();
+            }
+            dfs(root.getLeft());
+            if(min2 > (int) root.getValue() && (int) root.getValue() >min1 ) {
+                min2 = (int) root.getValue();
+            }
+            dfs(root.getRight());
+            if(min2 > (int) root.getValue() && (int) root.getValue() >min1 ) {
+                min2 = (int) root.getValue();
+            }
+        }
     }
