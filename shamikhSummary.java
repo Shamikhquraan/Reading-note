@@ -401,7 +401,6 @@ public int findSecondMinimumValue(TreeNode root) {
       min2 = (int) tree.getRoot().getValue();
         dfs(tree.getRoot());
         return min2;
-    }
     public static void dfs(Node root) {
         if (root != null) {
             if (min1 > (int) root.getValue()) {
@@ -417,3 +416,32 @@ public int findSecondMinimumValue(TreeNode root) {
             }
         }
     }
+
+
+
+
+
+
+
+//  Given the root of a binary tree, return an array of the largest value in each row of the tree
+class Solution {
+    public List<Integer> largestValues(TreeNode root) {
+        List<Integer> ans = new ArrayList<Integer>();
+        if(root == null) return ans;
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        queue.add(root);
+        int max = Integer.MIN_VALUE;
+        while(!queue.isEmpty()){
+            int size = queue.size();
+            max = Integer.MIN_VALUE;
+            for(int i = 0; i < size; i++){
+                TreeNode cur = queue.poll();
+                max = Math.max(max, cur.val);
+                if(cur.left != null) queue.add(cur.left);
+                if(cur.right != null) queue.add(cur.right);
+            }
+            ans.add(max);
+        }
+        return ans;
+    }
+}
